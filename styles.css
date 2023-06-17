@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.title {
+    color: goldenrod;
+    font-weight: bolder;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+.list-input {
+    width: 20rem;
+    color: rgb(63, 49, 49);
+    font-weight: bolder;
+    border: 1px solid goldenrod;
+    background-color: rgba(185, 211, 202, .4);
+}
+
+.list-input:focus {
+    outline: none;
+}
+
+.addListBtn {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    width: 3rem;
+    height: 1.3rem;
+    font-size: 1rem;
+}
+
+.addListBtn:hover {
+    cursor: pointer;
+    background-color: rgb(161, 116, 0);
+    box-shadow: 1px 1px 0 0 black;
+}
